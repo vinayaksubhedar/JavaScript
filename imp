@@ -1,0 +1,42 @@
+…or create a new repository on the command line
+echo "# JavaScript" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/vinayaksubhedar/JavaScript.git
+git push -u origin main
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/vinayaksubhedar/JavaScript.git
+git branch -M main
+git push -u origin main
+
+
+####
+About Git Course
+Git is a version control system (https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control) that helps you control your source code. For example, you can easily go back to older states of your code or revert in case you mess up your code.
+
+Using it, is totally optional! It's also not a tool that's related to JavaScript in any way - you can indeed use Git in ANY (programming) project.
+
+Since it is optional and not directly related to JavaScript, I will not dive into Git in this course. Nonetheless, it's definitely a tool worth learning for every developer.
+
+In case you are interested, this tutorial gets you started: https://academind.com/tutorials/git-the-basics
+
+Besides local version control and code management, you can also push your projects and all your commits ("snapshots") to remote storages. The most prominent (free!) remote service is GitHub: http://github.com/
+
+You can learn more about it here: https://academind.com/tutorials/github-the-basics
+
+Also check out the official docs: https://git-scm.com/about
+
+
+//Debugging
+VS Code Docs: https://code.visualstudio.com/docs
+
+VS Code Keybindings: https://code.visualstudio.com/docs/getstarted/keybindings
+
+VS Code Extensions Docs: https://code.visualstudio.com/docs/editor/extension-gallery
+
+Google Chrome DevTools Docs: https://developers.google.com/web/tools/chrome-devtools/
+
+
